@@ -8,7 +8,8 @@
         "--share=network",
         "--share=ipc",
         "--socket=fallback-x11",
-        "--socket=wayland"
+        "--socket=wayland",
+	"--filesystem=home"
     ],
     "cleanup" : [
         "/include",
@@ -68,8 +69,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/RogerCrocker/BadaBib.git",
-                    "tag": "v0.2.0",
-                    "commit": "180ab2e69b2c754938c5a682e460ae32e6e39133"
+                    "tag": "v0.2.1",
+                    "commit": "269531bbf2879b7578b945f710813fda55214712"
                 }
             ]
         }
